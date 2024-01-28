@@ -8,7 +8,7 @@ import getpass
 browser = webdriver.Firefox()
 
 # Visit the specified webpage
-url = "https://accounts.google.com/v3/signin"
+url = "<your url>"
 browser.get(url)
 
 # Function to check for the presence of reCAPTCHA
